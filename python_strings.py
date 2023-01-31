@@ -20,12 +20,13 @@ print(my_first_name)
 #       - last name
 print(my_last_name)
 #       - first letter of your first name (use the +index)
-print(my_last_name[+0])
+print(my_last_name[0])
 #       - second letter of your last name (use the -index)
-print(my_Last_name[-2)
+print(my_last_name[-2])
 #       - first two letter of your first name (use the +index)
-print(my_last_name[:])
+
 #       - last two letter of your last name (use the -index)
+print(my_last_name[-2:0]) 
 
 #TODO Combining Strings
 #   - Print the following items (one per line) (print using variables)
@@ -34,9 +35,9 @@ print(my_first_name+my_last_name)
 #       -first name six times
 print(my_first_name + my_last_name) #concat
 print(my_first_name + ' ' + my_last_name) #concat
-print(My_first_name, my_last_name) #concat
+print(my_first_name, my_last_name) #concat
 #       -first name six times
-print(My_first_name*6)
+print(my_first_name*6)
 
 
 
